@@ -11,10 +11,10 @@ public class Averages_2 {
        handleProduct();
        getOutput ();
    }
-   private static  void handleProduct() {
+   private static void handleProduct() {
        averages = cal(number,sum);
    }
-   private static  double cal (double number, double sum) {
+   private static double cal (double number, double sum) {
        while (enter.equals("=") != true) {
          number = Double.parseDouble(enter);
          Scanner scanner = new Scanner(System.in);

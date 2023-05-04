@@ -5,7 +5,7 @@ public class Deposit {
     static double price;
     static int yers = 0;
     static final double PRESENT_DEPOSIT = 0.125;
-    static final double TAX = 19.5;
+    static final double TAX = 0.195;
 
 
     public static void main(String[] args) {
